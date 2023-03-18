@@ -84,7 +84,7 @@ const MovieDetails = () => {
                 </SubMenuItem>
               </SubMenuList>
 
-              <Suspense fallback={<div>Loading subpage...</div>}>
+              <Suspense fallback={<div>Loading ...</div>}>
                 <Outlet />
               </Suspense>
             </div>

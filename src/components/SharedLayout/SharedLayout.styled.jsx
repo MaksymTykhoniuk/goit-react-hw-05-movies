@@ -2,9 +2,11 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
 export const Container = styled.div`
-  max-width: 960px;
+  width: 1260px;
+  padding: 0px 30px;
   margin: 0 auto;
-  padding: 0 16px;
+  background-color: rgb(255, 250, 250);
+  min-height: 100vh;
 `;
 
 export const Header = styled.header`

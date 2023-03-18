@@ -39,7 +39,7 @@ const MovieDetails = () => {
   return (
     <>
       <Container>
-        <BackLink to={backHref.current}>go back kek</BackLink>
+        <BackLink to={backHref.current}>go back</BackLink>
         {!isEmpty(movieInfo) && (
           <>
             <MovieInfoWrapper>
